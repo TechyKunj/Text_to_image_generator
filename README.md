@@ -17,9 +17,10 @@ This project implements a text-to-image generator using the Hugging Face API key
    cd text-to-image-generator
 
 1. Install the required dependencies:
-   pip install -r requirements.txt
+      ```Pip
+         pip install -r requirements.txt
   
-2. Set up your Hugging Face API key:
+3. Set up your Hugging Face API key:
 - Obtain your API key from Hugging Face.
 - Set the API key as an environment variable:
 export HF_HOME=<path_to_your_home_directory>  # Set your home directory path
